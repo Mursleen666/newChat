@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* put this inside App component using <style> tag or a CSS file */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #00ff00;
+  border-radius: 10px;
+  border: 2px solid #050505;
+}
